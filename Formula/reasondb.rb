@@ -2,23 +2,23 @@ class Reasondb < Formula
   desc "AI-native document database with hierarchical reasoning retrieval"
   homepage "https://github.com/brainfish-ai/reasondb"
   license "ReasonDB-1.0"
-  version "0.5.2"
+  version "0.5.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/brainfish-ai/reasondb/releases/download/v0.5.2/reasondb-v0.5.2-aarch64-apple-darwin.tar.gz"
-      sha256 "1b900b07466013f3cc7b8ed3e82f84b94e855c8478c3f7d95d6aec5e90dae130"
+      url "https://github.com/brainfish-ai/reasondb/releases/download/v0.5.3/reasondb-v0.5.3-aarch64-apple-darwin.tar.gz"
+      sha256 "6d524c954f72854dbdb0de1ef6e8e3b5ee9d3e8721e15e8a05523c9d5b470c22"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/brainfish-ai/reasondb/releases/download/v0.5.2/reasondb-v0.5.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "511617d31d88f157e8ef0daa68d5436a14f6e16cd4bff1d162be68ef40a9a62a"
+      url "https://github.com/brainfish-ai/reasondb/releases/download/v0.5.3/reasondb-v0.5.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "09a87a24d776bac980a755417eb8b38ffb3a50b6e650eac21e8170d04e8d89d5"
     end
     on_intel do
-      url "https://github.com/brainfish-ai/reasondb/releases/download/v0.5.2/reasondb-v0.5.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2f007ed0a874f12693f0e37a906e540ba09f27e52c0c164c01a5a8541acce62b"
+      url "https://github.com/brainfish-ai/reasondb/releases/download/v0.5.3/reasondb-v0.5.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7ec68a4f97fedddcb85c42386dc7855ee507080f889e6ec645c91686606dce96"
     end
   end
 
